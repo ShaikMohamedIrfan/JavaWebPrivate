@@ -1,0 +1,43 @@
+{
+  "name": "LoginWeb",
+  "location": "<workspace>\\build.xml",
+  "type": "classpath_project",
+  "build_id": "10.3.4.20180223-20180226-0827",
+  "schema_version": "1.1",
+  "testoutcomes": [],
+  "compilations": [
+    {
+      "id": "",
+      "sourcepath": [
+        "<workspace>\\src"
+      ],
+      "includes": [],
+      "excludes": [],
+      "tests": [],
+      "binarypath": [
+        "<workspace>\\build"
+      ],
+      "classpath": [
+        "<workspace>\\lib\\javax.servlet.jar",
+        "<workspace>\\lib\\junit-4.10.jar",
+        "<workspace>\\lib\\servlet-api.jar"
+      ],
+      "bootpath": [
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\ant-javafx.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\deploy.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\java.jnlp.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\javafx-swt.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\javaws.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\jdk.deploy.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\jdk.javaws.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\jdk.plugin.dom.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\jdk.plugin.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\jrt-fs.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\plugin-legacy.jar",
+        "C:\\Program Files\\Java\\jdk-9.0.1\\lib\\plugin.jar"
+      ],
+      "encoding": "Cp1252",
+      "sourcelevel": "9"
+    }
+  ]
+}

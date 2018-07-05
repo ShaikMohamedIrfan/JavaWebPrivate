@@ -1,0 +1,31 @@
+<?xml version="1.0" ?> 
+<project name="LoginWeb" default="war"> 
+
+  <path id="compile.classpath">
+    <fileset dir="lib">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+  <target name="clean">
+    <delete dir="dist" />
+    <delete dir="WEB-INF/classes" />
+  </target>  
+  <target name="init" depends="clean">
+    <mkdir dir="WEB-INF/classes"/>
+    <mkdir dir="dist" />
+  </target>
+
+  <target name="compile" depends="init" >
+    <javac destdir="WEB-INF/classes" debug="true" srcdir="src">
+      <classpath refid="compile.classpath"/>
+    </javac>
+  </target>
+
+  <target name="war" depends="compile">
+    <war destfile="dist/LoginWeb.war" webxml="WEB-INF/web.xml">
+      <fileset dir=""/>
+      <lib dir="lib"/>
+      <classes dir="WEB-INF/classes"/>
+    </war>
+  </target>
+</project>

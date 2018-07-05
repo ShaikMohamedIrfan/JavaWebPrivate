@@ -1,0 +1,8 @@
+create jtest.xml
+
+copy jtest-ant-plugin.jar from jtest to ant
+
+run ant build
+ant -f jtest.xml jtest-analysis
+
+C:\JTest\jtest\jtestcli -data G:\manas\work\TestApplications\Java\JavaLoginWebApp\LoginWeb\SourceCode\jtest.data.json -workspace G:\manas\work\TestApplications\Java\JavaLoginWebApp\LoginWeb\SourceCode -report "C:\JTestReport"

@@ -1,0 +1,17 @@
+<project name="LoginWeb" default="jtest-analysis"
+      xmlns:parasoft="antlib:com.parasoft.jtest.plugin.ant">
+	
+  <property name="jtest.home" value="c:/JTest/jtest" />
+
+  <parasoft:listener />
+
+  <target name="jtest-analysis" depends="run_tests">
+      <parasoft:jtest>
+          <!-- placeholder for Jtest DTP Engine options -->
+      </parasoft:jtest>
+  </target>
+
+  <target name="run_tests">
+      <ant target="compile" antfile="build.xml" />
+  </target>
+</project>
